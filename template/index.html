@@ -1,0 +1,403 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Colorectal Polyp</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  
+  <script src="{% static 'assets/js/sweetalert2.js' %}"></script>
+  <link type="text/css" href="https://path/vendor/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <a href="#member" class="nav-link scrollto">
+          <img src="https://media.istockphoto.com/photos/number-11-picture-id917358946?k=20&m=917358946&s=612x612&w=0&h=kHH8X0bMckRzXy79QsE9BQlitZXmArpHGiacPCnhdHc=" alt="" class="img-fluid rounded-circle">
+        </a>
+        <h1 class="text-light">Batch - 11 Project</h1>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#abstract" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Abstract</span></a></li>
+          <li><a href="#intro" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Introduction</span></a></li>
+          <li><a href="#review" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Review</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Method</span></a></li>
+          <li><a href="#predict" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Prediction</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>References</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Home Section ======= -->
+  <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="home-container" data-aos="fade-in">
+      <h1 style="color:antiquewhite">Deep Learning Based App</h1>
+    </div>
+  </section><!-- End Home -->
+
+  <main id="main">
+
+    <!-- ======= Abstract Section ======= -->
+    <section id="abstract" class="abstract">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Abstract</h2>
+          <hr>
+          
+        </div>
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p class="fst-italic">
+              Colorectal cancer is a major health problem, it starts in the colon sector. These cancers can also be called colon cancer. Early cases can begin as non-cancerous polyps. These often have no symptoms but can be detected by screening, where advances towards computer-aided diagnosis (CAD) systems to assist the endoscopist can be a promising path to improvement. The images from the endoscope are taken and preprocessed using the image Super-Resolution technique, it is the process of recovering high-resolution (HR) images from low-resolution (LR) images and given to deep learning models such as Focus U-Net or Attention U-Net and pre-trained models such as VGGnets and RESnets, complemented with a post-processing step based on an object-tracking. In this project, we also include Residual U-Net architecture to understand its performance on Colorectal polyp detection. We use two public datasets, they are CVC-ClinicDB and KvasirSEG. After the evaluation of results, this work can be further developed as a DL model for Colorectal polyp detection, which could be integrated in the future into a CAD system.
+            </p>
+            <hr>
+            <h3>keywords</h3>
+          <p class="fst-italic">Colorectal Polyps, Computer-Aided Diagnosis, Focus U-Net, VGGnets, RESnets, Residual U-Net, Detection, Colonoscopy, Endoscope.
+          </p>
+          <hr>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Abstract Section -->
+
+    <!-- ======= Intro Section ======= -->
+    <section id="intro" class="intro">
+      <div class="container">
+        <div class="section-title">
+          <h2>Introduction</h2>
+          <hr>
+
+        </div>
+        <div class="row content">
+          <!--div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-center"-->
+          <p class="fst-italic">
+            Cancer is a dangerous disease that can affect a group of cells in the human body. If anyone got affected by this disease, they can’t able to control the growth of the affected cells. It is caused by various factors such as tobacco usage, many radio-active substances, unnecessary food taking, consumption of alcohol along with genetic problems of ancestors. According to National Cancer Institute (NCI) analysis, the most affected cancer variants whereas, breast (Female - Male) cancer, prostate cancer, lung cancer, colorectal cancer, etc. Based on this analysis, lung and colorectal cancer are leading causes of death [1]. There are treatments for many variants and also in some cases, it cures. But, a maximum of the cases is not successful. Prevention is better than treatment. In general, cancer has been identified into four stages along with the zeroth (0) stage. By the time of identification, this disease has usually already spread in that body location.
+          </p>
+          <p class="fst-italic">
+            As per NCI analysis, colorectal cancer is the second most dangerous in the world. In 2020, it was estimated that 43% of new cases were diagnosed in men as well as 50% in women [1]. This cancer affects mainly adults due to various undigested food habits. It starts with an initial stage of polyps forming in the colon and gradually converts into cancer cells. Later, the diagnosed patient condition leads to death.
+          </p>
+          <p class="fst-italic">
+            Due to this reason, the medical examiners suggest removing polyps before they turn into cancer cells. So, it is very important to identify the colon cancer symptoms with various recent technologies like deep learning and neural network concepts. The next section is highlighted various techniques for identifying polyps and later develops a new technique for detecting colorectal polyps with proper results and discussions. Finally, this work concludes with the future scope and other validated information.
+          </p>
+        </div>
+      </div>
+    </section><!-- End Intro Section --><br><br><br>
+
+<!-- ======= Review Section ======= -->
+    <section id="review" class="review">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Literature Review</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 content" data-aos="fade-up">
+            <div class="review-item pb-0">
+              <h5>Base Paper</h5>
+              <p style="text-align: justify"><em>1)	Yeung, M., Sala, E., Schönlieb, C. B., & Rundo, L. (2021). Focus U-Net: A novel dual attention-gated CNN for polyp segmentation during colonoscopy. Computers in Biology and Medicine, 137, 104815.
+              </em></p>
+              <ul>
+                <li>In this paper, the authors Michael Yeung et al introduced “Focus U-Net: A novel dual attention-gated CNN for polyp segmentation during colonoscopy”.
+                  </li>
+                <li>
+                    The proposed method Focus U-Net combines efficient spatial and channel-based attention into a single Focus Gate module to encourage selective learning of polyp features.
+                  </li>
+                <li>
+                    They selected five public datasets containing images of polyps obtained during optical colonoscopy. CVC-ClinicDB, Kvasir-SEG, CVC-ColonDB, ETIS-Larib PolypDB, and EndoScene test set.
+                  </li>
+                <li>
+                  They use the Dice similarity coefficient (DSC) and Intersection over Union (IoU) metrics to evaluate model performance.
+                  </li>
+                <li>
+                  The model achieves a mean DSC of 0.941 and 0.910 for CVC-ClinicDB and Kvasir-SEG respectively.
+                </li>
+              </ul>
+            </div>
+            <div class="review-item">
+              <h5>Second Paper</h5>
+              <p><em>2)	Nogueira-Rodríguez, A., Domínguez-Carbajales, R., Campos-Tato, F., Herrero, J., Puga, M., Remedios, D.,  & Glez-Pena, D. (2021). Real-time polyp detection model using convolutional neural networks. Neural Computing and Applications, 1-22.
+              </em></p>
+              <ul>
+                <li>
+                    In this paper, the authors Nogueira-Rodríguez et al proposed “Real-time polyp detection model using convolutional neural networks”.
+                </li>
+                <li>
+                    The proposed method architecture is pre-trained YOLOv3 and complemented with a post-processing step based on an object-tracking algorithm candidate bounding box (CBB) post-filter.
+                </li>
+                <li>
+                    The dataset contains 28,576 images labeled with locations of 941 polyps.
+                </li>
+                <li>
+                    The authors classified the polyps into Histology (Adenoma or Hyperplastic), Morphology (Flat or Sessile or Pedunculated), size (>= 5mm or <5mm), and Imaging(WL or NBI).
+                </li>
+                <li>
+                    The performance calculations of all these classifications are done with object tracking and without object tracking algorithms
+                </li>
+                <li>
+                  The performance of the model with an object tracking algorithm has given good results.
+                </li>
+              </ul>
+            </div>
+            <div class="review-item">
+              <h5>Fifth Paper</h5>
+              <p><em>5)	Jha, D., Smedsrud, P. H., Johansen, D., de Lange, T., Johansen, H. D., Halvorsen, P., & Riegler, M. A. (2021). A comprehensive study on colorectal polyp segmentation with ResUNet++, conditional random field and test-time augmentation. IEEE Journal of biomedical and health informatics, 25(6), 2029-2040.
+              </em></p>
+              <ul>
+                <li>
+                    In this paper, the authors proposed “A Comprehensive Study on Colorectal Polyp Segmentation with RESUnet++, Conditional Random Field and Test-Time Augmentation”.
+                </li>
+                <li>
+                    The proposed architecture is RESUnet++. They have used six publicly available datasets they are Kvasir-SEG, CVC-ClinicDB, CVC-ColonDB, ETIS-Larib Polyp DB, ASU-Mayo Clinic Colonoscopy Video Database, and CVC-VideoClinicDB.
+                </li>
+                <li>
+                    In the proposed RESUnet++ model, they introduce the sequence of squeeze and excitation block to the encoder part of the network and also replace the bridge of RESUnet with ASPP (Atrous Spatial Pyramid Pooling).
+                </li>
+                <li>
+                    In this paper, they even add RESUnet++ with test-time augmentation (TTA) and conditional random field (CRF) to improve the results even more.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="review-item">
+              <h5>Third Paper</h5>
+              <p><em>Nogueira-Rodríguez, A., Dominguez-Carbajales, R., López-Fernández, H., Iglesias, A., Cubiella, J., Fdez-Riverola, F., ... & Glez-Pena, D. (2021). Deep neural networks approaches for detecting and classifying colorectal polyps. Neurocomputing, 423, 721-734.
+              </em></p>
+              <ul>
+                <li>
+                    In this paper, the authors proposed a “Deep neural networks approach for detecting and classifying colorectal polyps”.
+                </li>
+                <li>
+                    The authors developed the DL model for classification or localization of objects in images is usually done by using Convolutional Neural Networks (CNN) architecture i.e. off-the-shelf CNN.
+                </li>
+                <li>
+                    The various colonoscopy datasets such as ETIS-Larib, CVC-ColonDB, CVC-ClinicDB, CVC-PolyHD, ASU-Mayo, CVC-ClinicVideoDB are used by the authors for detecting and classifying.
+                </li>
+                <li>
+                    Results are considered only for the best model with the best balance among recall or precision.
+                </li>
+              </ul>
+            </div>
+            <div class="review-item">
+              <h5>Fourth Paper</h5>
+              <p><em>4)	Wang, Y., Yoo, S., Braun, J. M., & Nadimi, E. S. (2021). A locally-processed light-weight deep neural network for detecting colorectal polyps in wireless capsule endoscopes. Journal of Real-Time Image Processing, 18(4), 1183-1194.
+              </em></p>
+              <ul>
+                <li>
+                    In this paper, the author’s Wang Y et al introduced “A locally processed light-weight deep neural network for detecting colorectal polyps in wireless-capsule endoscopes”.
+                </li>
+                <li>
+                    The proposed model has the potential of running locally in the Wireless capsule endoscopes (WCE) instead of large deep neural network (DNN) models for processing images that have been saved on the computer.
+                </li>
+                <li>
+                    This is Designed based on SqueezeNet. They have obtained polyp images from WCE to train the model.
+                </li>
+                <li>
+                    In this paper, the proposed DNN is compared with the other popular object-detection DNNs, such as R-CNN, YOLO, and SSD, which achieved 105 FPS which is the highest compared to others.
+                </li>
+                <li>
+                    Although its AP50 (AP value with the IOU threshold value of 50%) is a little lower than that of YOLO V3, the comprehensive performance of the DNN is best for this case.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Review Section -->
+
+    <!-- ======= Method Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+     <div class="container">
+        <div class="section-title">
+          <h2>Methodology</h2>
+          <hr>
+        </div>
+        <div class="row content">
+          <!--div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-center"-->
+          <p>
+            The main motto of our work is to detect colorectal cancer at stage 0 i.e., polyps. To detect polyps, traditional technologies can be used such as capsule colon endoscopy and CT Colonoscopy. These technologies provide basic information about polyp structure and stage. There are some disadvantages like the patient should spend his entire day in the hospital, bloating, vomiting, and having difficulty swallowing while performing these traditional technologies. But whereas Deep Learning architectures detect the polyps in a safe and user-friendly manner. The DL approach provides some promising techniques such as image segmentation, image super-resolution, and object tracking in medical image analysis. The DL models are trained to predict the solution to a problem. Hence, with these new technologies, we can identify the polyp in the patient’s affected image from the colon sector.
+          </p>
+          <p>
+            This project has been classified into three modules: firstly, the super-resolution module, to get high-resolution images from low resolution using Enhanced Super-Resolution Generative Adversarial Network (ESRGAN). When compared with standard definition (SD) images, High definition (HD) images give more accurate results. The HD images are also helpful for clear object detection. The second module consists of DL models which take generated HD images from the super-resolution module. In the last module, the polyp detection and the accuracy of the DL models are calculated using DSC and IOU performance metrics.
+          </p>
+          <p>
+            The above image shows the workflow of this entire project. The synopsis of the above architecture is that it contains a preprocessing module followed by DL models and then object tracking labeling. The workflow of each module will be presented in the coming section.
+          </p>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Prediction Section ======= -->
+    <section id="predict" class="predict">
+      <form method="post" enctype="multipart/form-data" action="predict">
+        {% csrf_token %}
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Prediction</h2>
+        </div>
+        <center>
+        <p>Insert the image to predict</p>
+            <div class="ml-2 icon-box" data-aos="fade-up">
+              <h6>Polyp Image</h6>
+              <label class="radio inline">
+                <input type="file" name="filePath">
+              </label>
+            <input type="submit" class="btn btn-primary" id="sweet" value="Predict" width="10%">
+            <input type="reset" class="btn btn-danger" value="Reset" width="10%"/>
+          </div>
+        </center>
+        </div>
+      </form>
+
+    </section><!-- End Prediction Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>References</h2>
+        </div>
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ol>
+              <a href="{% static 'pdf/1.pdf' %}">
+              <li>Yeung, M., Sala, E., Schönlieb, C. B., & Rundo, L. (2021). Focus U-Net: A novel dual attention-gated CNN for polyp segmentation during colonoscopy. Computers in Biology and Medicine, 137, 104815.
+              </li></a><hr>
+              <a href="{% static 'pdf/2.pdf' %}"><li>Nogueira-Rodríguez, A., Domínguez-Carbajales, R., Campos-Tato, F., Herrero, J., Puga, M., Remedios, D.,  & Glez-Pena, D. (2021). Real-time polyp detection model using convolutional neural networks. Neural Computing and Applications, 1-22.
+              </li><hr></a>
+              <a href="{% static 'pdf/3.pdf' %}"><li>Nogueira-Rodríguez, A., Dominguez-Carbajales, R., López-Fernández, H., Iglesias, A., Cubiella, J., Fdez-Riverola, F., ... & Glez-Pena, D. (2021). Deep neural networks approaches for detecting and classifying colorectal polyps. Neurocomputing, 423, 721-734.
+              </li><hr></a>
+              <a href="{% static 'pdf/4.pdf' %}"><li>Wang, Y., Yoo, S., Braun, J. M., & Nadimi, E. S. (2021). A locally-processed light-weight deep neural network for detecting colorectal polyps in wireless capsule endoscopes. Journal of Real-Time Image Processing, 18(4), 1183-1194.
+              </li><hr></a>
+              <a href="{% static 'pdf/5.pdf' %}"><li>Jha, D., Smedsrud, P. H., Johansen, D., de Lange, T., Johansen, H. D., Halvorsen, P., & Riegler, M. A. (2021). A comprehensive study on colorectal polyp segmentation with ResUNet++, conditional random field, and test-time augmentation. IEEE Journal of biomedical and health informatics, 25(6), 2029-2040.
+              </li><hr></a>
+
+            </ol>
+          </div>
+          
+
+        </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+    <!-- ======= Member Section ======= -->
+<section id="member" class="member">
+  <div class="container">
+    <div class="section-title">
+      <h2>Project Members</h2>
+      <hr>
+      <div class="row" data-aos="fade-in">
+        <div class="col-lg-12 d-flex justify-content-center">
+            <strong>
+              <table>
+                <tr>
+                  <td><h5 style="font-family:'Arial'">Chakrapanda Suraj</h5></td>
+                  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                  <td><h5 style="font-family:'Arial'">19341A0527</h5></td>
+                </tr>
+                <tr>
+                  <td><h5 style="font-family:'Arial'">Abdul Rahaman</h5></td>
+                  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                  <td><h5 style="font-family:'Arial'">19341A0502</h5></td>
+                </tr>
+              <tr>
+                  <td><h5 style="font-family:'Arial'">Rama Bhagavan</h5></td>
+                  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                  <td><h5 style="font-family:'Arial'">19341A0545</h5></td>
+                </tr>
+              <tr>
+                  <td><h5 style="font-family:'Arial'">Chukkala Bhargava</h5></td>
+                  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                  <td><h5 style="font-family:'Arial'">19341A0536</h5></td>
+                </tr>
+              <tr>
+                  <td><h5 style="font-family:'Arial'">Gudivada Harsha Vardhan</h5></td>
+                  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                  <td><h5 style="font-family:'Arial'">19341A0556</h5></td>
+                </tr>
+              </table>
+            </strong>            
+        </div>
+      </div>
+  </div>
+</section><!-- End Member Section --><br><br><br>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Gmrit</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a>ChakrapandaSuraj</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}" ></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}" ></script>
+  <script src="{% static 'assets/vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+
+</body>
+
+</html>
